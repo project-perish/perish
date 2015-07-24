@@ -271,7 +271,7 @@ font-size: 0.850em;
 color: #656565;
 line-height: 1.4em;
 }
-/* =Services
+/* =uses
 ----------------------------------------------- */
 section.uses {
 background-color: #4a3f60;
@@ -325,48 +325,7 @@ content: '';
 display: block;
 clear: both;
 }
-// /* =About
-// ----------------------------------------------- */
-// section.about {  background-color: #84cbc5 }
-// section.about section {
-// width: 840px;
-// margin: 0 auto;
-// -webkit-transition: width .2s ease;
-// -moz-transition: width .2s ease;
-// transition: width .2s ease;
-// }
-// section.about section h3 {
-// display: block;
-// clear: both;
-// width: 840px;
-// margin: 0px 20px 50px 20px;
-// }
-// section.about section img {
-// display: block;
-// float: left;
-// margin-top: 30px;
-// margin-right: 30px;
-// }
-// section.about section article {
-// float: left;
-// display: block;
-// width: 380px;
-// margin: 20px 20px 10px 20px;
-// font-size: 14px;
-// }
-// section.about section article p {
-// font-size: 18px;
-// line-height: 32px;
-// letter-spacing: 0.1px;
-// }
-// section.about section article h4 {  margin-bottom: 20px }
-// section.about::after,
-// section.about section::after,
-// section.about section div::after {
-// content: '';
-// display: block;
-// clear: both;
-// }
+
 /* =Contact
 ----------------------------------------------- */
 section.contact {  padding-bottom: 210px }

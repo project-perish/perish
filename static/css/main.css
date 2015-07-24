@@ -9,7 +9,7 @@ Samples from FlatUI, normalize, bootstrap and Flatboot
 ----------------------------------------------- */
 h1, h2, h3, h4, h5, h6, a, p {
   font-family: 'Open Sans', sans-serif;
-  color: white;
+  color: #3c3c3c;
   font-weight: normal;
   font-size: 16px;
   text-decoration: none;
@@ -28,13 +28,12 @@ h1 {
   letter-spacing: 1.5px;
   text-align: center;
   line-height: 56px;
-  text-transform: uppercase;
   color: #3c3c3c; }
 
 h1 em {
   font-style: normal;
   color: white;
-  font-size: 100px;
+  font-size: 70px;
   text-align: center; }
 
 h2 {
@@ -165,8 +164,8 @@ section.primary-nav a.logo {
 .primary-nav a:active {
   color: #de5f27; }
 
-.primary-nav a:nth-of-type(2) {
-  color: #72ccc4;
+.primary-nav a:nth-of-type(1) {
+  color: #26C281;
   font-weight: bold; }
 
 .primary-nav a:nth-of-type(2):active {
@@ -175,7 +174,7 @@ section.primary-nav a.logo {
 body > header h1 {
   width: 940px;
   display: block;
-  margin: 100px auto 0 auto; }
+  margin: 40px auto 0 auto; }
 
 section.primary-nav::after {
   content: '';
@@ -196,6 +195,10 @@ section.about {
 section.about .about-container {
   margin: 0 auto;
   width: 870px; }
+
+section.about .desc {
+  margin: 0 auto;
+  text-align: center; }
 
 section.about .about-item {
   width: 260px;
@@ -253,8 +256,8 @@ section.about .about-item p {
 /* =uses
 ----------------------------------------------- */
 section.uses {
-  background-color: #4a3f60;
-  padding: 120px 0; }
+  padding: 0px;
+  background-color: #1E8BC3; }
 
 section.uses .serviceitems {
   width: 960px;
@@ -264,18 +267,13 @@ section.uses .serviceitems {
   transition: width .2s ease; }
 
 section.uses .serviceitems article {
-  width: 460px;
-  height: 220px;
   margin: 10px;
   float: left; }
 
 section.uses .serviceitems figure {
-  width: 120px;
-  height: 113px;
   float: left;
-  margin: 30px 60px 30px 0;
   border-radius: 50%;
-  background-color: #443959;
+  background-color: #1E8BC3;
   padding: 47px 0px 0px 40px; }
 
 section.uses .serviceitems figure img {
@@ -307,7 +305,8 @@ section.uses .serviceitems::after {
 /* =Contact
 ----------------------------------------------- */
 section.contact {
-  padding-bottom: 210px; }
+  padding:30px 0;
+}
 
 section.contact > a {
   width: 180px;
@@ -332,11 +331,6 @@ section.contact em {
 section.contact h6 {
   margin-bottom: 30px; }
 
-section.contact .socialicons {
-  width: 222px;
-  height: 72px;
-  margin: 0 auto 30px auto;
-  clear: both; }
 
 section.contact .socialicons a {
   width: 50px;
@@ -487,12 +481,6 @@ body > div.returning {
   -webkit-animation: slideup 1s ease;
   -moz-animation: slideup 5s ease;
   animation: slideup 1s ease; }
-
-body > div.returning a {
-  width: 58px;
-  height: 58px;
-  background-image: url("../img/arrow.png");
-  display: block; }
 
 .return_scroll {
   display: block !important; }

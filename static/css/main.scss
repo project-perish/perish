@@ -6,7 +6,8 @@ Samples from FlatUI, normalize, bootstrap and Flatboot
 
 /* =Sass variables
 ----------------------------------------------- */
-$intro-color: #C8F7C5;
+$intro-color: #26C281;
+// 0
 
 /* =Global
 ----------------------------------------------- */
@@ -459,7 +460,7 @@ resize: vertical;
 section.contact button {
 display: block;
 padding: 15px 30px;
-background-color: #4bd0b8;
+background-color: #26C281;
 -webkit-background-clip: padding-box;
 -moz-background-clip: padding-box;
 background-clip: padding-box;
@@ -473,8 +474,8 @@ bottom: -100px;
 -moz-transition: background-color 0.3s ease;
 transition: background-color 0.3s ease;
 }
-section.contact button:hover {  background-color: #e17da2 }
-section.contact button:active {  background-color: #d4618c }
+section.contact button:hover {  background-color: #75E4B3 }
+section.contact button:active {  background-color: #75E4B3 }
 /* =Footer
 ----------------------------------------------- */
 body > footer {

@@ -103,7 +103,7 @@ body > section {
 /* =Header
 ----------------------------------------------- */
 body > header {
-  background-color: #C8F7C5;
+  background-color: #26C281;
   width: 100%; }
 
 section.primary-nav {
@@ -413,7 +413,7 @@ section.contact textarea {
 section.contact button {
   display: block;
   padding: 15px 30px;
-  background-color: #4bd0b8;
+  background-color: #26C281;
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding-box;
   background-clip: padding-box;
@@ -428,10 +428,10 @@ section.contact button {
   transition: background-color 0.3s ease; }
 
 section.contact button:hover {
-  background-color: #e17da2; }
+  background-color: #75E4B3; }
 
 section.contact button:active {
-  background-color: #d4618c; }
+  background-color: #75E4B3; }
 
 /* =Footer
 ----------------------------------------------- */
@@ -553,7 +553,7 @@ body > div.returning a {
 @media (max-width: 650px) {
   body > header {
     height: 420px;
-    background: #C8F7C5; }
+    background: #26C281; }
 
   body > section {
     padding: 50px 0; }

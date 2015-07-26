@@ -54,7 +54,7 @@ h2 {
 
 h5 {
   /* Service Titles & Portfolio */
-  
+  font-size: 40px;
   font-weight: bold;
 }
 h6 {
@@ -115,18 +115,21 @@ section.header {
 background-color: $intro-color;
 width: 100%;
 position: relative;
-height: 70%;}
+height: 90%;}
 
 .brand-wrapper {
   position: relative;
-  top: 35%;
+  top: 5%;
+
 }
 
 .brand{
-  font-size: 90px;
+  font-size: 160px;
+  margin: 50px;
 }
 
 .desc{
+  padding: 20px;
   color:white;
   text-align: center;
   font-size: 20px;

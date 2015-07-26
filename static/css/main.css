@@ -58,7 +58,7 @@ h6 {
   -webkit-margin-before: 0; }
 
 body > section {
-  padding: 150px 0;
+  padding: 50px 0;
   width: 100%;
   background-color: white; }
 
@@ -87,7 +87,7 @@ body > section {
     transform: translateY(); } }
 /* =Header
 ----------------------------------------------- */
-body > header {
+section.header {
   background-color: #26C281;
   width: 100%;
   position: relative;
@@ -100,10 +100,15 @@ body > header {
 .brand {
   font-size: 90px; }
 
+.desc {
+  color: white;
+  text-align: center;
+  font-size: 20px; }
+
 /* =uses
 ----------------------------------------------- */
 section.uses {
-  padding: 0px;
+  padding: 40px;
   background-color: #1E8BC3; }
 
 section.uses .serviceitems {
@@ -195,21 +200,6 @@ section.contact .socialicons a {
   -webkit-transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
   transition: all 0.2s ease; }
-
-section.contact .socialicons a:hover {
-  margin-top: 7px; }
-
-section.contact .socialicons a:active {
-  opacity: 0.8; }
-
-section.contact .socialicons a[href*="twitter"] {
-  background-position: -55px 1px; }
-
-section.contact .socialicons a[href*="dribbble"] {
-  background-position: -104px 1px; }
-
-section.contact .socialicons a[href*="mailto:"] {
-  background-position: -154px 1px; }
 
 section.contact form {
   width: 600px;
@@ -312,193 +302,5 @@ body footer nav a {
 body footer p {
   text-align: center;
   font-size: 12px; }
-
-/* =Media Queries
------------------------------------------------ */
-@media (max-width: 1087px) {
-  body > header h1 {
-    width: 700px; }
-
-  section.services .serviceitems {
-    width: 480px; }
-
-  section.services .serviceitems article {
-    margin: 15px 10px; }
-
-  body > div,
-  body > div.returning {
-    display: none !important; } }
-@media (max-width: 650px) {
-  body > header {
-    height: 420px;
-    background: #26C281; }
-
-  body > section {
-    padding: 50px 0; }
-
-  .primary-nav a.logo {
-    float: none;
-    clear: both;
-    margin: 10px auto 0 auto; }
-
-  .primary-nav a {
-    padding: 5%;
-    display: block;
-    width: 15%;
-    margin: 0;
-    text-align: center; }
-
-  section.primary-nav {
-    height: auto; }
-
-  .primary-nav a {
-    font-size: 12px; }
-
-  .primary-nav a:hover {
-    margin-top: 0; }
-
-  section.primary-nav nav {
-    width: 95%; }
-
-  section.primary-nav nav {
-    height: auto;
-    width: 90%;
-    margin: 0 5%; }
-
-  body > header h1 {
-    padding-top: 0px;
-    width: 80%;
-    font-size: 16px;
-    line-height: 30px;
-    padding-bottom: 80px; }
-
-  section.services .serviceitems {
-    width: 90%;
-    margin: 5%; }
-
-  section.services .serviceitems article {
-    width: 40%;
-    margin: 5%;
-    height: auto; }
-
-  section.services .serviceitems figure {
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    background-color: transparent;
-    height: auto;
-    margin-bottom: 20px; }
-
-  section.services .serviceitems figure img {
-    display: block;
-    margin: 0 auto; }
-
-  section.services .serviceitems article h5 {
-    font-size: 12px;
-    text-align: center;
-    width: 100%;
-    margin: 0; }
-
-  section.services .serviceitems article p {
-    display: none; }
-
-  section.portfolio {
-    width: 100%;
-    margin-bottom: 0;
-    padding-bottom: 0; }
-
-  section.portfolio > a {
-    width: 100%;
-    margin: 10px 0px;
-    display: block;
-    height: auto; }
-
-  section.portfolio section iframe {
-    width: 100%;
-    margin: 0;
-    padding: 0; }
-
-  section.portfolio a:hover {
-    opacity: 1; }
-
-  section.portfolio a img {
-    width: 100%;
-    display: block; }
-
-  h2 {
-    font-size: 30px; }
-
-  section.portfolio section p {
-    width: 100%; }
-
-  section.portfolio span.close {
-    display: none; }
-
-  section.about section {
-    width: 100%; }
-
-  section.about section img {
-    width: 253px;
-    height: 253px;
-    margin: 0 auto 60px auto; }
-
-  section.about section article {
-    width: 95%;
-    margin: 2.5% 2.5% 30px 2.5%;
-    text-align: center; }
-
-  section.about section h3 {
-    display: none; }
-
-  section.about section div {
-    width: 85%;
-    margin: 0 7.5%; }
-
-  section.about h4 {
-    text-align: center; }
-
-  section.about p {
-    text-align: center; }
-
-  section.contact {
-    padding-bottom: 50px; }
-
-  h6 {
-    width: 90%;
-    margin: 5%; }
-
-  section.contact form {
-    width: 90%; }
-
-  section.contact input {
-    width: 85%;
-    margin: 5%;
-    padding-left: 5%; }
-
-  section.contact textarea {
-    width: 85%;
-    margin: 5%;
-    padding: 5% 0 5% 5%; }
-
-  section.contact button {
-    position: relative;
-    bottom: auto;
-    margin: 10px auto; }
-
-  .return_scroll {
-    display: none; } }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2) {
-  .primary-nav a.logo {
-    background: url("../img/sprites@2x.png") no-repeat -3px 1px;
-    -webkit-background-size: 207px;
-    -moz-background-size: 207px;
-    background-size: 207px;
-    background-color: #e26868; }
-
-  section.contact .socialicons a {
-    background: url("../img/sprites@2x.png") no-repeat -3px 1px;
-    -webkit-background-size: 207px;
-    -moz-background-size: 207px;
-    background-size: 207px; } }
 
 /*# sourceMappingURL=main.css.map */

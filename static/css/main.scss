@@ -13,7 +13,7 @@ $use-color: #1E8BC3;
 ----------------------------------------------- */
 
 h1,h2,h3,h4,h5,h6,a,p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
   color: #3c3c3c;
   font-weight: normal;
   font-size: 16px;
@@ -214,19 +214,7 @@ height: 72px;
 margin: 0 auto 30px auto;
 clear: both;
 }
-section.contact .socialicons a {
-width: 50px;
-height: 50px;
-border-radius: 50px;
-margin: 12px;
-background: url('../img/sprites.png') no-repeat -1px -1px;
-display: block;
-float: left;
-text-indent: -9999px;
--webkit-transition: all 0.2s ease;
--moz-transition: all 0.2s ease;
-transition: all 0.2s ease;
-}
+
 section.contact form {
 width: 600px;
 background-color: #eeeeee;
@@ -271,22 +259,29 @@ margin: 10px;
 border: none;
 resize: vertical;
 }
-section.contact button {
+.submitbutton {
 display: block;
-padding: 15px 30px;
 background-color: #26C281;
 -webkit-background-clip: padding-box;
 -moz-background-clip: padding-box;
 background-clip: padding-box;
 border: none;
 color: white;
+margin:10px auto;
 border-radius: 6px;
-margin: 10px 178.50px;
+  padding: 10px 19px;
+  font-size: 17px;
+  line-height: 1.471;
+  border-radius: 6px;
 position: absolute;
 bottom: -100px;
 -webkit-transition: background-color 0.3s ease;
 -moz-transition: background-color 0.3s ease;
 transition: background-color 0.3s ease;
+left:37%;
+}
+.buttonwrapper{
+  text-align:center;
 }
 section.contact button:hover {  background-color: #75E4B3 }
 section.contact button:active {  background-color: #75E4B3 }
@@ -295,7 +290,7 @@ section.contact button:active {  background-color: #75E4B3 }
 body > footer {
 background-color: #3c4955;
 width: 100%;
-padding: 35px 0;
+padding: 15px 0;
 height: 20px;
 }
 body > footer img {
@@ -323,6 +318,8 @@ color: #e7e7e7;
 }
 body footer p {
 text-align: center;
-font-size: 12px;
+font-size: 14px;
+position: relative;
+bottom: 5px; 
 }
 

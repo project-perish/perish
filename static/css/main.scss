@@ -18,7 +18,6 @@ h1,h2,h3,h4,h5,h6,a,p {
   font-weight: normal;
   font-size: 16px;
   text-decoration: none;
-  line-height: 28px;
 }
 body {
   background-color: #EEE;
@@ -33,7 +32,6 @@ h1 {
   font-weight: bold;
   letter-spacing: 1.5px;
   text-align: center;
-  line-height: 56px;
   color: #3c3c3c;
 }
 h1 em {
@@ -53,20 +51,7 @@ h2 {
   margin-bottom: 80px;
   letter-spacing: 0.1em;
 }
-h3 {
-  /* About Hook */
-  
-  font-size: 26px;
-  text-align: left;
-  line-height: 44px;
-}
-h4 {
-  /* About Question Titles */
-  
-  font-size: 22px;
-  font-weight: bold;
-  color: rgba(51, 51, 51, 0.8);
-}
+
 h5 {
   /* Service Titles & Portfolio */
   
@@ -129,151 +114,18 @@ body > section {
 body > header {
 background-color: $intro-color;
 width: 100%;
+position: relative;
+height: 70%;}
 
-}
-section.primary-nav {
-background-color: white;
-width: 100%;
-height: 80px;
-box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2);
-}
-section.primary-nav nav {
-width: 940px;
-margin: 0 auto;
--webkit-transition: width .2s ease;
--moz-transition: width .2s ease;
-transition: width .2s ease;
-}
-section.primary-nav a.logo {
-width: 48px;
-height: 48px;
-border-radius: 50%;
-border: 1px solid white;
-background-color: #e26868;
-text-indent: -9999px;
-float: left;
-margin-top: 16px;
-padding: 0;
--webkit-transition: all 0.4s ease;
--moz-transition: all 0.4s ease;
-transition: all 0.4s ease;
-overflow: hidden;
-/* Prevent background color leak outs */
--webkit-background-clip: padding-box;
--moz-background-clip: padding;
-background-clip: padding-box;
-}
-.primary-nav a.logo:hover,
-.primary-nav a.logo:active {
-background-color: #79c5b8;
-margin-top: 16px;
-/* Prevent background color leak outs */
--webkit-background-clip: padding-box;
--moz-background-clip: padding;
-background-clip: padding-box;
-}
-.primary-nav a {
-display: block;
-float: right;
-color: #666;
-letter-spacing: 0.1px;
-font-size: 14px;
-padding: 0 20px;
-margin: 29px 0px 0px 0px;
--webkit-transition: margin 0.2s ease;
--moz-transition: margin 0.2s ease;
-transition: margin 0.2s ease;
-}
-.primary-nav a:hover {  margin-top: 25px }
-.primary-nav a:active {  color: #de5f27 }
-.primary-nav a:nth-of-type(1) {
-color: $intro-color;
-font-weight: bold;
-}
-.primary-nav a:nth-of-type(2):active {  color: #62b4a5 }
-body > header h1 {
-  width: 940px;
-  display: block;
-  margin: 40px auto 0 auto;
-}
-section.primary-nav::after {
-  content: '';
-  display: block;
-  clear: both;
+.brand-wrapper {
+  position: relative;
+  top: 35%;
 }
 
-/* =About
+.brand{
+  font-size: 90px;
+}
 
------------------------------------------------ */
-section.about {
-padding: 30px 0;
-margin: 0px auto;
--webkit-transition: width .2s ease;
--moz-transition: width .2s ease;
-transition: width .2s ease;
-background-color: #EEE;
-}
-section.about .about-container {
-margin: 0 auto;
-width: 870px;
-}
-section.about .desc {
-margin: 0 auto;
-text-align:center;
-}
-section.about .about-item {
-width: 260px;
-background-color: #FFF;
-padding: 0;
-border-radius: 4px;
-box-shadow: 0px 1px 1px rgba(0, 0, 0, .05);
-margin: 0 15px 30px 15px;
-display: moz-inline-stack;
-display: inline-block;
-zoom: 1;
-}
-section.about .about-item h5 {
-text-transform: uppercase;
-font-weight: 600;
-font-size: 0.85em;
-color: #666;
-letter-spacing: 0.25em;
-padding: 15px 15px 17px 15px;
--webkit-font-smoothing: antialiased!important;
-text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004)!important;
-text-align: center;
-}
-/* deals with image sizing */
-section.about .about-item .img-container,
-.about-item .sml-img-container,
-.about-item .med-img-container {
-width: 260px;
-background: #2fa5d2;
-border-top: 1px solid #DFDFDF;
-border-bottom: 1px solid #DFDFDF;
-background-size: 100%;
-}
-section.about .about-item .img-container img,
-.about-item .sml-img-container img,
-.about-item .med-img-container img {
-width: 260px;
-background: cover cover;
-}
-section.about .about-item .sml-img-container {
-height: 178px;
-background: #ea2e49;
-}
-section.about.about-item .med-img-container {
-height: 228px;
-background: #363636;
-}
-/*Deals with image text*/
-section.about .about-item p {
-padding: 20px 30px 30px 30px;
-font-size: 0.850em;
-color: #656565;
-line-height: 1.4em;
-}
 /* =uses
 ----------------------------------------------- */
 section.uses {
@@ -470,56 +322,13 @@ body footer p {
 text-align: center;
 font-size: 12px;
 }
-/* =Return to top button
------------------------------------------------ */
-body > div.returning {
-width: 58px;
-height: 58px;
-border-radius: 50%;
-background-color: rgba(22, 160, 155, 0.3);
-position: fixed;
-text-indent: -9999px;
-bottom: 50px;
-right: 50px;
-z-index: 100;
-display: none;
--webkit-background-clip: padding-box;
--moz-background-clip: padding-box;
-background-clip: padding-box;
--webkit-animation: slideup 1s ease;
--moz-animation: slideup 5s ease;
-animation: slideup 1s ease;
-}
 
-.return_scroll {  display: block !important }
-.return_scroll:hover {  background-color: rgba(0, 0, 0, 0.5) }
 /* =Media Queries
 ----------------------------------------------- */
 @media (max-width: 1087px) { 
-  section.primary-nav nav {  width: 700px }
   body > header h1 {  width: 700px }
   section.services .serviceitems {  width: 480px }
   section.services .serviceitems article {  margin: 15px 10px }
-  section.portfolio {  width: 640px }
-  section.portfolio span.close {  right: 291px }
-  section.portfolio section img {  width: 100% }
-  section.about section {  width: 640px }
-  section.about section article {
-    margin: 0 auto;
-    width: 100%;
-    margin: 50px 20px 0 20px;
-  }
-  section.about section h3 {
-    width: 100%;
-    font-size: 22px;
-    margin: 0px 20px 0px 20px;
-  }
-  section.about h4 {  text-align: left }
-  section.about p {  text-align: left }
-  section.about section img {
-    float: none;
-    margin: 0px 193.5px 60px 193.5px;
-  }
   body > div,
   body > div.returning {  display: none !important }
 }

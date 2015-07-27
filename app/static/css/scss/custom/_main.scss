@@ -19,7 +19,7 @@ h1,h2,h3,h4,h5,h6,a,p {
   color: $font-color;
 ;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 17px;
   text-decoration: none;
 }
 
@@ -34,7 +34,7 @@ p {
 h1 {
   /* Main Heading Text */
   
-  font-size: 36px;
+  font-size: 45px;
   font-weight: bold;
   letter-spacing: 1.5px;
   text-align: center;
@@ -50,7 +50,7 @@ h1 {
 
 h2 {
   /* Section Titles */
-  font-size: 42px;
+  font-size: 50px;
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
@@ -65,7 +65,7 @@ h5 {
 
 h6 {
   /* Contact Message */
-  font-size: 18px;
+  font-size: 25px;
   text-align: center;
   color: $contact-font-color;
 }
@@ -121,16 +121,18 @@ section.header {
 background-color: $intro-color;
 width: 100%;
 position: relative;
-height: 550px;
+height: 700px;
 }
 
 .brand-wrapper {
   position: relative;
-  padding: 25px 50px;
+  padding: 0px 45px;
+  padding-top:75px;
+  padding-bottom:25px;
 }
 
 .brand{
-  font-size: 160px;
+  font-size: 200px;
     display: inline;
 }
 
@@ -139,21 +141,22 @@ height: 550px;
   padding-bottom: 15px;
   color:white;
   text-align: center;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .logo{
-  height: 125px;
-  width: 87px;
+  height: 155px;
+  width: 110px;
   position: relative;
-  top: 5px;
+  top: 7px;
 }
 
 .try-me{
   text-align: center;
   width: 200px;
   margin: 0px auto;
-
+  padding-top: 10px;
+  
   a{
     display: block;
     background-color: #F9BE37;
@@ -164,8 +167,8 @@ height: 550px;
     color: #3C3C3C;
     margin:15px auto;
     border-radius: 6px;
-    padding: 10px 19px;
-    font-size: 25px;
+    padding: 15px 20px;
+    font-size: 26px;
     line-height: 1.471;
     border-radius: 6px;
     position: relative;
@@ -187,7 +190,7 @@ height: 550px;
 /* = features
 ----------------------------------------------- */
 .features{
-  height:400px;
+  height:550px;
   background-color: $features-color;
 }
 
@@ -195,8 +198,8 @@ height: 550px;
  padding: 0px 50px;
 
   .features-header{
-    margin-bottom: 20px;
-    margin-top: 10px;
+    margin-bottom: 60px;
+    margin-top: 20px;
   }
 
   .features-label{

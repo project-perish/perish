@@ -120,15 +120,13 @@ body > section {
 section.header {
 background-color: $intro-color;
 width: 100%;
-position: relative;
-height: 675px;
 }
 
 .brand-wrapper {
   position: relative;
   padding: 0px 45px;
-  padding-top:75px;
-  padding-bottom:25px;
+  padding-top:100px;
+  padding-bottom:50px;
 }
 
 .brand{
@@ -190,16 +188,14 @@ height: 675px;
 /* = features
 ----------------------------------------------- */
 .features{
-  height:550px;
   background-color: $features-color;
 }
 
 .features-wrapper{
- padding: 0px 50px;
-
+ padding: 75px 50px;
+  
   .features-header{
-    margin-bottom: 60px;
-    margin-top: 20px;
+    padding-bottom: 50px;
   }
 
   .features-label{
@@ -217,7 +213,6 @@ section.contact {
   background-color:$contact-color;
   padding-top: 60px;
   padding-bottom: 125px; 
-  position:relative;
 }
 
 section.contact h2 {
@@ -281,21 +276,21 @@ background-clip: padding-box;
 border: none;
 color: white;
 font-size: 20px;
-margin:10px auto;
 border-radius: 6px;
 padding: 10px 19px;
 line-height: 1.471;
 border-radius: 6px;
-position: absolute;
-bottom: -100px;
+position: relative;
+top: 100px;
+margin: 0px auto;
 -webkit-transition: background-color 0.3s ease;
 -moz-transition: background-color 0.3s ease;
-transition: background-color 0.3s ease;
-left:37%;
+transition: background-color 0.3s ease; 
 }
 
 .buttonwrapper{
   text-align:center;
+  margin: 0px auto;
 }
 
 section.contact button:hover {

@@ -89,15 +89,13 @@ body > section {
 ----------------------------------------------- */
 section.header {
   background-color: #26C281;
-  width: 100%;
-  position: relative;
-  height: 675px; }
+  width: 100%; }
 
 .brand-wrapper {
   position: relative;
   padding: 0px 45px;
-  padding-top: 75px;
-  padding-bottom: 25px; }
+  padding-top: 100px;
+  padding-bottom: 50px; }
 
 .brand {
   font-size: 200px;
@@ -147,14 +145,12 @@ section.header {
 /* = features
 ----------------------------------------------- */
 .features {
-  height: 550px;
   background-color: #f4f4f4; }
 
 .features-wrapper {
-  padding: 0px 50px; }
+  padding: 75px 50px; }
   .features-wrapper .features-header {
-    margin-bottom: 60px;
-    margin-top: 20px; }
+    padding-bottom: 50px; }
   .features-wrapper .features-label {
     color: 505050;
     padding: 7.5px 0px; }
@@ -166,8 +162,7 @@ section.header {
 section.contact {
   background-color: rgba(253, 227, 167, 0.75);
   padding-top: 60px;
-  padding-bottom: 125px;
-  position: relative; }
+  padding-bottom: 125px; }
 
 section.contact h2 {
   color: #4b4c51;
@@ -224,20 +219,20 @@ section.contact textarea {
   border: none;
   color: white;
   font-size: 20px;
-  margin: 10px auto;
   border-radius: 6px;
   padding: 10px 19px;
   line-height: 1.471;
   border-radius: 6px;
-  position: absolute;
-  bottom: -100px;
+  position: relative;
+  top: 100px;
+  margin: 0px auto;
   -webkit-transition: background-color 0.3s ease;
   -moz-transition: background-color 0.3s ease;
-  transition: background-color 0.3s ease;
-  left: 37%; }
+  transition: background-color 0.3s ease; }
 
 .buttonwrapper {
-  text-align: center; }
+  text-align: center;
+  margin: 0px auto; }
 
 section.contact button:hover {
   background-color: #75E4B3; }

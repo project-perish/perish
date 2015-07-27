@@ -85,11 +85,13 @@
 				<h2>Contact Us</h2>	
 				<h6>Love the idea? Hate it? Want to send us cat pics?<br/><br/>
 				<strong class="email-us">Email Us!</strong><br></h6>	
-				<form class="contactform bordering" method="post" autocomplete="off">
-					<input type="text" id="name" name="name" value="" placeholder="Full Name">
-					<input type="email" id="email" name="email" value="" placeholder="Email">
-					<textarea id="mail-content" name="mail-content" placeholder="Message"></textarea>
-					<button class="submitbutton bordering" style="border-radius:6px" href="mailto:admin@perish.me?subject=Hey%20Perish%20Check%20this%20out!" target="_blank" type="submit">Send It Our Way!</button>
+				<form class="contactform bordering" action="/email" method="post" autocomplete="off">
+					<input type="text" id="name" name="name" value="" placeholder="Full Name" required>
+					<input type="email" id="email" name="email" value="" placeholder="Email" required>
+					<textarea id="mail-content" name="message" placeholder="Message"></textarea>
+					<div class="buttonwrapper">
+						<button class="submitbutton bordering" style="border-radius:6px" target="_blank" type="submit">Send It Our Way!</button>
+					</div>	
 				</form>	
 			</section>
 		</div>

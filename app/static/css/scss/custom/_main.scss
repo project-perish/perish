@@ -9,6 +9,7 @@ $features-color: #f4f4f4;
 $contact-color:rgba(253, 227, 167, 0.75);
 $font-color: #909090;
 $features-font-color: #4b4c51;
+$contact-font-color: #5a5a5a;
 
 /* =Global
 ----------------------------------------------- */
@@ -66,7 +67,7 @@ h6 {
   /* Contact Message */
   font-size: 18px;
   text-align: center;
-  color: $font-color;
+  color: $contact-font-color;
 }
 
 * {
@@ -120,25 +121,69 @@ section.header {
 background-color: $intro-color;
 width: 100%;
 position: relative;
-height: 600px;
+height: 550px;
 }
 
 .brand-wrapper {
   position: relative;
-  margin: 90px 0px;
+  padding: 25px 50px;
 }
 
 .brand{
   font-size: 160px;
-  margin: 50px;
+    display: inline;
 }
 
 .desc{
-  padding: 20px;
+  padding-top: 30px;
+  padding-bottom: 15px;
   color:white;
   text-align: center;
   font-size: 20px;
 }
+
+.logo{
+  height: 125px;
+  width: 87px;
+  position: relative;
+  top: 5px;
+}
+
+.try-me{
+  text-align: center;
+  width: 200px;
+  margin: 0px auto;
+
+  a{
+    display: block;
+    background-color: #F9BE37;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding-box;
+    background-clip: padding-box;
+    border: none;
+    color: #3C3C3C;
+    margin:15px auto;
+    border-radius: 6px;
+    padding: 10px 19px;
+    font-size: 25px;
+    line-height: 1.471;
+    border-radius: 6px;
+    position: relative;
+    -webkit-transition: background-color 0.3s ease;
+    -moz-transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease;
+
+    &:active {
+      background-color: #F9E6BC;
+    }
+
+    &:hover {
+      background-color: #F9E6BC;
+    }
+  }
+}
+
+
 /* = features
 ----------------------------------------------- */
 .features{
@@ -167,8 +212,8 @@ height: 600px;
 ----------------------------------------------- */
 section.contact {
   background-color:$contact-color;
-  padding-top: 70px;
-  padding-bottom: 110px; 
+  padding-top: 60px;
+  padding-bottom: 125px; 
   position:relative;
 }
 

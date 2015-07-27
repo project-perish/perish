@@ -1,0 +1,270 @@
+/*
+Daniel Park Portfolio CSS
+Samples from FlatUI, normalize, bootstrap and Flatboot
+*/
+/* =Sass variables
+----------------------------------------------- */
+$intro-color: #26C281;
+$features-color: #f4f4f4;
+$contact-color:rgba(253, 227, 167, 0.75);
+$font-color: #909090;
+$features-font-color: #4b4c51;
+
+/* =Global
+----------------------------------------------- */
+
+h1,h2,h3,h4,h5,h6,a,p {
+  font-family: 'Lato', sans-serif;
+  color: $font-color;
+;
+  font-weight: normal;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+body {
+  background-color: #EEE;
+}
+
+p {
+  font-weight: 300;
+}
+
+h1 {
+  /* Main Heading Text */
+  
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  text-align: center;
+  color: #3c3c3c;
+  
+  em {
+    font-style: normal;
+    color: white;
+    font-size:70px;
+    text-align: center;
+  }
+}
+
+h2 {
+  /* Section Titles */
+  font-size: 42px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+
+h5 {
+  /* Service Titles & Portfolio */
+  font-size: 40px;
+  font-weight: bold;
+}
+
+h6 {
+  /* Contact Message */
+  font-size: 18px;
+  text-align: center;
+  color: $font-color;
+}
+
+* {
+  -webkit-margin-after: 0;
+  -webkit-margin-before: 0;
+}
+body > section {
+  padding: 50px 0;
+  width: 100%;
+  background-color: white;
+}
+
+/* =CSS Animations
+----------------------------------------------- */
+
+@-webkit-keyframes slideup { 
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY();
+  }
+}
+@-moz-keyframes slideup { 
+  0% {
+    opacity: 0;
+    -moz-transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    -moz-transform: translateY();
+  }
+}
+@keyframes slideup { 
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY();
+  }
+}
+
+/* =Header
+----------------------------------------------- */
+
+section.header {
+background-color: $intro-color;
+width: 100%;
+position: relative;
+height: 600px;
+}
+
+.brand-wrapper {
+  position: relative;
+  margin: 90px 0px;
+}
+
+.brand{
+  font-size: 160px;
+  margin: 50px;
+}
+
+.desc{
+  padding: 20px;
+  color:white;
+  text-align: center;
+  font-size: 20px;
+}
+/* = features
+----------------------------------------------- */
+.features{
+  height:400px;
+  background-color: $features-color;
+}
+
+.features-header{
+  margin-bottom: 20px;
+}
+
+.features-label{
+   color: 505050;
+   padding: 7.5px 0px;
+}
+
+.features-desc{
+  text-align: center;
+}
+/* =Contact
+----------------------------------------------- */
+section.contact {
+  background-color:$contact-color;
+  padding: 90px 0px; 
+  position:relative;
+}
+
+section.contact h2 {
+color: #4b4c51;
+margin-bottom: 30px;
+}
+
+section.contact h6 {
+  margin-bottom: 30px 
+}
+
+section.contact form {
+width: 600px;
+background-color: #eeeeee;
+border-radius: 6px;
+margin: 20px auto;
+display: block;
+padding: 10px;
+position: relative;
+}
+
+section.contact input {
+width: 260px;
+height: 50px;
+padding: 0px 0px 0px 20px;
+border-radius: 3px;
+background-color: white;
+border: none;
+color: #808080;
+margin: 10px;
+float: left;
+}
+
+section.contact input:focus,
+section.contact input:active,
+section.contact textarea:focus,
+section.contact textarea:active {
+outline-color: $intro-color;
+outline-style: solid;
+outline-width: 2px;
+}
+
+section.contact textarea {
+width: 540px;
+height: 80px;
+padding: 20px;
+color: #808080;
+border-radius: 3px;
+background-color: white;
+margin: 10px;
+border: none;
+resize: vertical;
+}
+
+.submitbutton {
+display: block;
+background-color: #26C281;
+-webkit-background-clip: padding-box;
+-moz-background-clip: padding-box;
+background-clip: padding-box;
+border: none;
+color: white;
+margin:10px auto;
+border-radius: 6px;
+padding: 10px 19px;
+font-size: 17px;
+line-height: 1.471;
+border-radius: 6px;
+position: absolute;
+bottom: -100px;
+-webkit-transition: background-color 0.3s ease;
+-moz-transition: background-color 0.3s ease;
+transition: background-color 0.3s ease;
+left:37%;
+}
+
+.buttonwrapper{
+  text-align:center;
+}
+
+section.contact button:hover {
+  background-color: #75E4B3
+}
+
+section.contact button:active {
+  background-color: #75E4B3 
+}
+
+/* =Footer
+----------------------------------------------- */
+footer {
+background-color: #3c4955;
+width: 100%;
+padding: 30px 0;
+height: 20px;
+}
+footer p {
+color: white;
+text-align: center;
+font-size: 14px;
+position: relative;
+bottom: 5px; 
+}
+

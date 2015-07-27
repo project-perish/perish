@@ -113,21 +113,23 @@ section.header {
   height: 400px;
   background-color: #f4f4f4; }
 
-.features-header {
-  margin-bottom: 20px; }
-
-.features-label {
-  color: 505050;
-  padding: 7.5px 0px; }
-
-.features-desc {
-  text-align: center; }
+.features-wrapper {
+  padding: 0px 50px; }
+  .features-wrapper .features-header {
+    margin-bottom: 20px;
+    margin-top: 10px; }
+  .features-wrapper .features-label {
+    color: 505050;
+    padding: 7.5px 0px; }
+  .features-wrapper .features-desc {
+    text-align: center; }
 
 /* =Contact
 ----------------------------------------------- */
 section.contact {
   background-color: rgba(253, 227, 167, 0.75);
-  padding: 90px 0px;
+  padding-top: 70px;
+  padding-bottom: 110px;
   position: relative; }
 
 section.contact h2 {

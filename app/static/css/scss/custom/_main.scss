@@ -146,23 +146,29 @@ height: 600px;
   background-color: $features-color;
 }
 
-.features-header{
-  margin-bottom: 20px;
-}
+.features-wrapper{
+ padding: 0px 50px;
 
-.features-label{
-   color: 505050;
-   padding: 7.5px 0px;
-}
+  .features-header{
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
 
-.features-desc{
-  text-align: center;
+  .features-label{
+     color: 505050;
+     padding: 7.5px 0px;
+  }
+
+  .features-desc{
+    text-align: center;
+  }
 }
 /* =Contact
 ----------------------------------------------- */
 section.contact {
   background-color:$contact-color;
-  padding: 90px 0px; 
+  padding-top: 70px;
+  padding-bottom: 110px; 
   position:relative;
 }
 

@@ -148,7 +148,7 @@ section.header {
   background-color: #f4f4f4; }
 
 .features-wrapper {
-  padding: 75px 50px; }
+  padding: 60px 50px; }
   .features-wrapper .features-header {
     padding-bottom: 50px; }
   .features-wrapper .features-label {
@@ -162,7 +162,7 @@ section.header {
 section.contact {
   background-color: rgba(253, 227, 167, 0.75);
   padding-top: 60px;
-  padding-bottom: 125px; }
+  padding-bottom: 45px; }
 
 section.contact h2 {
   color: #4b4c51;
@@ -224,7 +224,6 @@ section.contact textarea {
   line-height: 1.471;
   border-radius: 6px;
   position: relative;
-  top: 100px;
   margin: 0px auto;
   -webkit-transition: background-color 0.3s ease;
   -moz-transition: background-color 0.3s ease;
@@ -258,6 +257,29 @@ footer p {
   font-size: 14px;
   position: relative;
   bottom: 5px; }
+
+.bordering {
+  border-bottom-color: #d0d1d5;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-image-outset: 0px;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  border-left-color: #dfe0e4;
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-right-color: #dfe0e4;
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-top-color: #e5e6e9;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-top-style: solid;
+  border-top-width: 1px; }
 
 * {
   -webkit-box-sizing: border-box;

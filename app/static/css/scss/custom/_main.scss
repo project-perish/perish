@@ -17,7 +17,6 @@ $contact-font-color: #5a5a5a;
 h1,h2,h3,h4,h5,h6,a,p {
   font-family: 'Lato', sans-serif;
   color: $font-color;
-;
   font-weight: normal;
   font-size: 17px;
   text-decoration: none;
@@ -192,7 +191,7 @@ width: 100%;
 }
 
 .features-wrapper{
- padding: 75px 50px;
+ padding: 60px 50px;
   
   .features-header{
     padding-bottom: 50px;
@@ -212,7 +211,7 @@ width: 100%;
 section.contact {
   background-color:$contact-color;
   padding-top: 60px;
-  padding-bottom: 125px; 
+  padding-bottom: 45px; 
 }
 
 section.contact h2 {
@@ -281,7 +280,6 @@ padding: 10px 19px;
 line-height: 1.471;
 border-radius: 6px;
 position: relative;
-top: 100px;
 margin: 0px auto;
 -webkit-transition: background-color 0.3s ease;
 -moz-transition: background-color 0.3s ease;
@@ -320,5 +318,29 @@ text-align: center;
 font-size: 14px;
 position: relative;
 bottom: 5px; 
+}
+
+.bordering{
+  border-bottom-color: rgb(208, 209, 213);
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-image-outset: 0px;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  border-left-color: rgb(223, 224, 228);
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-right-color: rgb(223, 224, 228);
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-top-color: rgb(229, 230, 233);
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-top-style: solid;
+  border-top-width: 1px;
 }
 

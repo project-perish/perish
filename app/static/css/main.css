@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, h6, a, p {
   font-family: 'Lato', sans-serif;
   color: #909090;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 17px;
   text-decoration: none; }
 
 body {
@@ -23,7 +23,7 @@ p {
 
 h1 {
   /* Main Heading Text */
-  font-size: 36px;
+  font-size: 45px;
   font-weight: bold;
   letter-spacing: 1.5px;
   text-align: center;
@@ -36,7 +36,7 @@ h1 {
 
 h2 {
   /* Section Titles */
-  font-size: 42px;
+  font-size: 50px;
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
@@ -49,9 +49,9 @@ h5 {
 
 h6 {
   /* Contact Message */
-  font-size: 18px;
+  font-size: 25px;
   text-align: center;
-  color: #909090; }
+  color: #5a5a5a; }
 
 * {
   -webkit-margin-after: 0;
@@ -89,35 +89,68 @@ body > section {
 ----------------------------------------------- */
 section.header {
   background-color: #26C281;
-  width: 100%;
-  position: relative;
-  height: 600px; }
+  width: 100%; }
 
 .brand-wrapper {
   position: relative;
-  margin: 90px 0px; }
+  padding: 0px 45px;
+  padding-top: 100px;
+  padding-bottom: 50px; }
 
 .brand {
-  font-size: 160px;
-  margin: 50px; }
+  font-size: 200px;
+  display: inline; }
 
 .desc {
-  padding: 20px;
+  padding-top: 30px;
+  padding-bottom: 15px;
   color: white;
   text-align: center;
-  font-size: 20px; }
+  font-size: 25px; }
+
+.logo {
+  height: 155px;
+  width: 110px;
+  position: relative;
+  top: 7px; }
+
+.try-me {
+  text-align: center;
+  width: 200px;
+  margin: 0px auto;
+  padding-top: 10px; }
+  .try-me a {
+    display: block;
+    background-color: #F9BE37;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding-box;
+    background-clip: padding-box;
+    border: none;
+    color: #3C3C3C;
+    margin: 15px auto;
+    border-radius: 6px;
+    padding: 15px 20px;
+    font-size: 26px;
+    line-height: 1.471;
+    border-radius: 6px;
+    position: relative;
+    -webkit-transition: background-color 0.3s ease;
+    -moz-transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease; }
+    .try-me a:active {
+      background-color: #F9E6BC; }
+    .try-me a:hover {
+      background-color: #F9E6BC; }
 
 /* = features
 ----------------------------------------------- */
 .features {
-  height: 400px;
   background-color: #f4f4f4; }
 
 .features-wrapper {
-  padding: 0px 50px; }
+  padding: 75px 50px; }
   .features-wrapper .features-header {
-    margin-bottom: 20px;
-    margin-top: 10px; }
+    padding-bottom: 50px; }
   .features-wrapper .features-label {
     color: 505050;
     padding: 7.5px 0px; }
@@ -128,9 +161,8 @@ section.header {
 ----------------------------------------------- */
 section.contact {
   background-color: rgba(253, 227, 167, 0.75);
-  padding-top: 70px;
-  padding-bottom: 110px;
-  position: relative; }
+  padding-top: 60px;
+  padding-bottom: 125px; }
 
 section.contact h2 {
   color: #4b4c51;
@@ -186,27 +218,31 @@ section.contact textarea {
   background-clip: padding-box;
   border: none;
   color: white;
-  margin: 10px auto;
+  font-size: 20px;
   border-radius: 6px;
   padding: 10px 19px;
-  font-size: 17px;
   line-height: 1.471;
   border-radius: 6px;
-  position: absolute;
-  bottom: -100px;
+  position: relative;
+  top: 100px;
+  margin: 0px auto;
   -webkit-transition: background-color 0.3s ease;
   -moz-transition: background-color 0.3s ease;
-  transition: background-color 0.3s ease;
-  left: 37%; }
+  transition: background-color 0.3s ease; }
 
 .buttonwrapper {
-  text-align: center; }
+  text-align: center;
+  margin: 0px auto; }
 
 section.contact button:hover {
   background-color: #75E4B3; }
 
 section.contact button:active {
   background-color: #75E4B3; }
+
+.email-us {
+  font-size: 28px;
+  font-weight: bold; }
 
 /* =Footer
 ----------------------------------------------- */

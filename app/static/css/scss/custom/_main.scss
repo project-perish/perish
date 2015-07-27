@@ -280,10 +280,10 @@ background-color: #26C281;
 background-clip: padding-box;
 border: none;
 color: white;
+font-size: 20px;
 margin:10px auto;
 border-radius: 6px;
 padding: 10px 19px;
-font-size: 17px;
 line-height: 1.471;
 border-radius: 6px;
 position: absolute;
@@ -304,6 +304,11 @@ section.contact button:hover {
 
 section.contact button:active {
   background-color: #75E4B3 
+}
+
+.email-us{
+  font-size: 28px;
+  font-weight:bold;
 }
 
 /* =Footer
